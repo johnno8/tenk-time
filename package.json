@@ -1,0 +1,23 @@
+{
+  "name": "10kpersonal4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "exit 0"
+  },
+  "author": "John O'Keeffe",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.5",
+    "bell": "^8.7.0",
+    "dotenv": "^4.0.0",
+    "handlebars": "^4.0.11",
+    "hapi": "^16.6.2",
+    "hapi-auth-cookie": "^7.0.0",
+    "inert": "^4.2.0",
+    "node-rest-client": "^3.1.0",
+    "vision": "^4.1.1"
+  }
+}

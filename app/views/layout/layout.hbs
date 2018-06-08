@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>10,000ft Time entries</title>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.js"></script>
+    <link rel="stylesheet" media="screen" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.css">
+    <style>
+      .leave {
+        background-color: darkorange;
+        font-weight: bold;
+        color: white;
+      }
+
+      .project {
+        background-color: dodgerblue;
+        font-weight: bold;
+        color: white;
+      }
+
+      .date_header {
+        background-color: lightgrey;
+        color: white;
+      }
+
+      .weekend {
+        background-color: #BFBDBD;
+        color: white;
+      }
+
+      .daily_total {
+        background-color: #79E383;
+        color: white;
+      }
+
+      .multiple {
+        background-color: red;
+        color: white;
+      }
+
+      .warningContainer {
+        height: 3em;
+        line-height: 3em;
+      }
+
+      .warning {
+        height: 3em;
+        width: 8em;
+        line-height: 3em;
+        background-color: red;
+        color: white;
+        float: left;
+      }
+
+      .warningText {
+        /*display: inline-block;*/
+        text-indent: .5em;
+        height: 3em;
+        line-height: 3em;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+  <section class="ui container">
+    {{{content}}}
+  </section>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+version: '2'
+services:
+  web:
+    build: .
+    volumes:
+      - .:/tenk-time
+    # depends_on:
+    #  - postgres
+    ports:
+      - "4000:4000"
+    env_file: .env
+    environment:
+      HOST: 0.0.0.0
